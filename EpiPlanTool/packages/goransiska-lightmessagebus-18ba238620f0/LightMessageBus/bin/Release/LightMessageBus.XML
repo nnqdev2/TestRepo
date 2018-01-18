@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LightMessageBus</name>
+    </assembly>
+    <members>
+        <member name="T:LightMessageBus.MessageBus">
+            <summary>
+            Light-weight message bus
+            </summary>
+            <remarks>
+            Used to enable communication between objects without direct references.
+            </remarks>
+        </member>
+    </members>
+</doc>

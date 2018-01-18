@@ -1,0 +1,239 @@
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.config
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.exe.config
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.exe
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.pdb
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\CalcBinding.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Castle.Core.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\DynamicExpresso.Core.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\EntityFramework.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\GrayscaleEffect.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\LightMessageBus.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Mehdime.Entity.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\MvvmFoundation.Wpf.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.Extensions.Factory.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\SiltronicWPF.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\System.Windows.Interactivity.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\SiltronicWPF.pdb
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Castle.Core.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\DynamicExpresso.Core.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\EntityFramework.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.pdb
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.pdb
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\LightMessageBus.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.Extensions.Factory.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.xml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.csprojResolveAssemblyReference.cache
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderLotsView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\LoginView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\MainView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\BookedOrdersView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderLotsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleTaskView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\TaskDetailsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderDetailsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\App.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_Content.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_MarkupCompile.cache
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_MarkupCompile.lref
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Themes\Generic.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Themes\ControlTemplates.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\LoginView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\MainView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\BookedOrdersView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleTaskView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\TaskDetailsView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderDetailsView.baml
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.g.resources
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.Properties.Resources.resources
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.csproj.GenerateResource.Cache
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.exe
+C:\Bhanu_Projects\EpiPlanTool\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.exe.config
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.exe
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.exe.config
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.exe
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.config
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.exe
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\EpiPlanTool.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\CalcBinding.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Castle.Core.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\DynamicExpresso.Core.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\EntityFramework.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\GrayscaleEffect.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\LightMessageBus.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Mehdime.Entity.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Controls.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Drawing.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Microsoft.Expression.Interactions.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\MvvmFoundation.Wpf.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.Extensions.Factory.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Oracle.ManagedDataAccess.EntityFramework.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\SiltronicWPF.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\System.Windows.Interactivity.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.AvalonDock.Themes.VS2010.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.DataGrid.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Xceed.Wpf.Toolkit.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\SiltronicWPF.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Castle.Core.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\DynamicExpresso.Core.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\EntityFramework.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ExpressMapper.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.pdb
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\GongSolutions.Wpf.DragDrop.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\LightMessageBus.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\Ninject.Extensions.Factory.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\NLog.xml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Controls.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Drawing.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\de\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\en\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\es\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\it\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ja\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ko\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\Microsoft.Expression.Interactions.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\de\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\en\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\es\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\fr\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\it\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ja\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ko\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ru\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hant\System.Windows.Interactivity.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\de\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\es\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\fr\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\hu\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\it\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\pt-BR\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ro\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.csprojResolveAssemblyReference.cache
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderLotsView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\LoginView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\MainView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\BookedOrdersView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderLotsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleTaskView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\TaskDetailsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderDetailsView.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\App.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_Content.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_MarkupCompile.cache
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool_MarkupCompile.lref
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Themes\Generic.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Themes\ControlTemplates.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\LoginView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\MainView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\BookedOrdersView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\ScheduleTaskView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\TaskDetailsView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\Views\OrderDetailsView.baml
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.g.resources
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.Properties.Resources.resources
+C:\Bhanu_Projects\EpiPlanTool - Orig_From_F2SCC_Plus_Modifications_Working Copy\EpiPlanTool\EpiPlanTool\obj\x86\Debug\EpiPlanTool.csproj.GenerateResource.Cache

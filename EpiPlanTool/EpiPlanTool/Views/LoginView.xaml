@@ -1,0 +1,100 @@
+﻿<Window 
+  x:Class="EpiPlanTool.Views.LoginView"
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+  xmlns:vm="clr-namespace:EpiPlanTool.ViewModels"
+  xmlns:v="clr-namespace:EpiPlanTool.Views"
+  xmlns:b="clr-namespace:EpiPlanTool.Behaviors"
+  Icon="/EpiPlanTool;component/Resources/connect.png"
+  Title="Login" Height="164" Width="360" ResizeMode="NoResize"
+  x:Name="LoginWindow"
+>
+  
+  <Window.Resources>
+    <Style x:Key="userError" TargetType="TextBox">
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding LoginError}" Value="True" >
+          <Setter Property="Background" Value="Red" />
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+
+    <Style x:Key="pwdError" TargetType="PasswordBox">
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding LoginError}" Value="True" >
+          <Setter Property="Background" Value="Red" />
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+
+    <Style x:Key="btnError" TargetType="Button">
+      <Style.Triggers>
+        <DataTrigger Binding="{Binding LoginError}" Value="True" >
+          <Setter Property="IsEnabled" Value="False" />
+        </DataTrigger>
+      </Style.Triggers>
+    </Style>
+
+    <!--
+    <Style TargetType="{x:Type v:LoginWindowView}">
+      <Setter Property="IsAuthenticated" Value="{Binding IsAuthenticated, Mode=TwoWay}"  />
+    </Style>
+    -->
+  </Window.Resources>
+  <Border x:Name="border">
+    <Grid>
+      <Label Content="User ID" HorizontalAlignment="Left" Margin="11,19,0,0" VerticalAlignment="Top" Height="25" Width="100"/>
+      <Label Content="Password" HorizontalAlignment="Left" Margin="11,49,0,0" VerticalAlignment="Top" Height="25" Width="100" />
+      <TextBox 
+        x:Name="userId"
+        HorizontalAlignment="Left" 
+        Margin="98,21,0,0" 
+        VerticalAlignment="Top" 
+        Width="198" 
+        Text="{Binding Path=UserID}" TabIndex="1"
+        Style="{StaticResource userError}"
+      />
+      <PasswordBox 
+        x:Name="pBox"
+        HorizontalAlignment="Left" 
+        Margin="98,50,0,0" 
+        VerticalAlignment="Top" 
+        Width="198" TabIndex="2" 
+        Style="{StaticResource pwdError}"
+      >
+        <i:Interaction.Behaviors>
+          <b:SecurePasswordBehavior 
+            BindablePassword="{Binding BindablePassword, Mode=OneWayToSource, 
+            ValidatesOnDataErrors=True, NotifyOnValidationError=True}" 
+           />
+        </i:Interaction.Behaviors>
+      </PasswordBox>
+      <Button 
+        Name="btnSubmit"
+        Content="Submit" 
+        HorizontalAlignment="Left" 
+        Margin="179,93,0,0" 
+        VerticalAlignment="Top" 
+        Width="75" 
+        IsDefault="True" 
+        Command="{Binding LoginCommand}" 
+        TabIndex="3" 
+        Style="{StaticResource btnError}"
+      />
+      <Button 
+        Content="Cancel" 
+        Name="btnCancel"
+        HorizontalAlignment="Left" 
+        Margin="259,93,0,0" 
+        VerticalAlignment="Top" 
+        Width="75" 
+        Click="Cancel"
+        IsCancel="True" 
+        TabIndex="4"
+     />
+    </Grid>
+  </Border>
+</Window>
+
+

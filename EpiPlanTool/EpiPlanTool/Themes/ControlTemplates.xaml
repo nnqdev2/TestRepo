@@ -1,0 +1,142 @@
+﻿<ResourceDictionary
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+  xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+  xmlns:sco="clr-namespace:Siltronic.Wpf.Controls;assembly=SiltronicWPF"
+  xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+  xmlns:c="clr-namespace:CalcBinding;assembly=CalcBinding"
+  xmlns:gs="clr-namespace:GrayscaleEffect;assembly=GrayscaleEffect"
+  xmlns:ctl="clr-namespace:EpiPlanTool.Controls"
+  xmlns:vm="clr-namespace:EpiPlanTool.ViewModels"
+>
+  <Image x:Key="Comment" Source="/EpiPlanTool;component/Resources/date_add.png" />
+  <Image x:Key="PLC" Source="/EpiPlanTool;component/Resources/PLC.png" />
+  <Image x:Key="Pencil" Source="/EpiPlanTool;component/Resources/pencil.png" />
+  <Image x:Key="Table" Source="/EpiPlanTool;component/Resources/table.png" />
+  <Image x:Key="Copy" Source="/EpiPlanTool;component/Resources/page_white_copy.png" />
+
+  <ControlTemplate x:Key="ReactorTaskTemplate" TargetType="ctl:ReactorTask">
+    <Border 
+      Background="{TemplateBinding Background}"
+      BorderBrush="{TemplateBinding BorderBrush}"
+      BorderThickness="{TemplateBinding BorderThickness}"
+    >
+      <TextBlock 
+        Foreground="{TemplateBinding Foreground}"
+        FontSize="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=FontSize}" 
+        FontFamily="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=FontFamily}"
+        FontWeight="{Binding RelativeSource={RelativeSource TemplatedParent}, Path=FontWeight}"
+        TextWrapping="NoWrap"
+        TextTrimming="None"
+        VerticalAlignment="Center"
+        HorizontalAlignment="Center"
+        Text="{Binding TaskDescription}"
+      />
+    </Border>
+  </ControlTemplate>
+  
+  <Style TargetType="{x:Type ctl:ReactorTask}" >
+    <Setter Property="Template" Value="{StaticResource ReactorTaskTemplate}" />
+    <Setter Property="FontFamily" Value="Tahoma" />
+    <Setter Property="FontSize" Value="11" />
+    <Setter Property="BorderBrush" Value="Black" />
+    <Setter Property="BorderThickness" Value="1,1,1,1" />
+    <Setter Property="Background" Value="{Binding Color}" />
+    <Setter Property="Foreground" Value="Black" />
+    <Setter Property="Focusable" Value="True" />
+    <Setter Property="HorizontalAlignment" Value="Stretch" />
+    <Setter Property="VerticalAlignment" Value="Stretch" />
+    <Setter Property="sco:TimelineTasksPanel.Start" Value="{Binding Start}" />
+    <Setter Property="sco:TimelineTasksPanel.End"  Value="{Binding End}"  />
+    <Setter Property="AttachedOrder" Value="{Binding AttachedOrder}" />
+    <Setter Property="Opacity" Value="1" />
+    <Setter Property="ToolTip" Value="{Binding TaskDescriptionTooltip}" />
+    <Style.Triggers>
+      <DataTrigger 
+        Binding="{c:Binding 'IsHighlightActive and !IsFocusedTask', 
+        RelativeSource={RelativeSource Self}}" 
+        Value="True">
+        <Setter Property="Background" Value="LightGray" />
+        <Setter Property="Foreground" Value="Black" />
+        <Setter Property="BorderThickness" Value="0" />
+      </DataTrigger>
+      <DataTrigger 
+        Binding="{Binding IsFocusedTask, 
+        RelativeSource={RelativeSource Self}}" 
+        Value="True"
+      >
+        <Setter Property="Background" Value="{Binding Color}" />
+        <Setter Property="FontWeight" Value="Bold" />
+        <Setter Property="FontSize" Value="12" />
+        <Setter Property="Opacity" Value="1" />
+        <Setter Property="BorderThickness" Value="1" />
+      </DataTrigger>
+    </Style.Triggers>
+  </Style>
+
+  <Style 
+    TargetType="{x:Type ctl:ReactorLabel}" 
+    BasedOn="{StaticResource {x:Type sco:TimelineLabel}}" />
+
+  <Style TargetType="ctl:ReactorTimeline" >
+    <Setter Property="ItemsPanel">
+      <Setter.Value>
+        <ItemsPanelTemplate>
+          <sco:TimelineTasksPanel Orientation="Horizontal" />
+        </ItemsPanelTemplate>
+      </Setter.Value>
+    </Setter>
+    <Setter Property="Template">
+      <Setter.Value>
+        <ControlTemplate>
+          <AdornerDecorator 
+            x:Name="FC_Overlay">
+            <Border 
+              Background="{TemplateBinding Background}"
+              BorderBrush="{TemplateBinding BorderBrush}"
+              BorderThickness="{TemplateBinding BorderThickness}">
+              <Border.InputBindings>
+                <KeyBinding 
+                  Key="Enter" 
+                  Command="{Binding DoubleClickCommand}"
+                  CommandParameter="{Binding SelectedTask}"
+                />
+              </Border.InputBindings>
+              <ItemsPresenter />
+            </Border>
+          </AdornerDecorator>
+        </ControlTemplate>
+      </Setter.Value>
+    </Setter>
+    <Setter Property="SelectedItem" Value="{Binding SelectedTask, Mode=TwoWay}" />
+    <Setter Property="SelectedIndex" Value="{Binding SelectedIndex, Mode=TwoWay}" />
+    <Setter Property="dd:DragDrop.IsDragSource" Value="True" />
+    <Setter Property="dd:DragDrop.IsDropTarget" Value="True" />
+    <Setter Property="dd:DragDrop.DropHandler" Value="{Binding}" />
+    <Setter Property="dd:DragDrop.DragHandler" Value="{Binding}" />
+    <Setter Property="ItemsSource" Value="{Binding Tasks}" />
+    <Setter Property="ContextMenu">
+      <Setter.Value>
+        <ContextMenu>
+          <MenuItem 
+            Command="{Binding InsertCustomTaskCommand}"
+            Header="Insert Task"
+            Icon="{StaticResource Comment}"
+            CommandParameter="T"
+          />
+          <MenuItem 
+            Command="{Binding InsertCustomTaskCommand}"
+            Header="Insert PLC"
+            Icon="{StaticResource PLC}"
+            CommandParameter="P"
+          />
+        </ContextMenu>
+      </Setter.Value>
+    </Setter>
+  </Style>
+
+  <Style TargetType="{x:Type ctl:ReactorSchedule}" >
+    <Setter Property="FocusManager.IsFocusScope" Value="True" />
+  </Style>
+  
+</ResourceDictionary>

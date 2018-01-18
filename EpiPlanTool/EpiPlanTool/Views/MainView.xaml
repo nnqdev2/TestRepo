@@ -1,0 +1,256 @@
+﻿<Window 
+  x:Class="EpiPlanTool.MainView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:dd="clr-namespace:GongSolutions.Wpf.DragDrop;assembly=GongSolutions.Wpf.DragDrop"
+    xmlns:si="http://schemas.microsoft.com/expression/2010/interactions"
+    xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity"
+    xmlns:sco="clr-namespace:Siltronic.Wpf.Controls;assembly=ScheduleTimeline"
+    xmlns:svc="clr-namespace:EpiPlanTool.Services"
+    xmlns:vm="clr-namespace:EpiPlanTool.ViewModels"
+    xmlns:v="clr-namespace:EpiPlanTool.Views"
+    xmlns:b="clr-namespace:EpiPlanTool.Behaviors"
+    xmlns:c="clr-namespace:CalcBinding;assembly=CalcBinding"
+    xmlns:gs="clr-namespace:GrayscaleEffect;assembly=GrayscaleEffect"
+    xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+    mc:Ignorable="d" 
+    Title="Epi Planning Tool" 
+    Height="400" 
+    Width="1120" 
+    Name="MainWindow" 
+    Icon="/EpiPlanTool;component/Resources/Timetable.png"  
+    WindowState="Maximized"
+  >
+  <i:Interaction.Triggers>
+    <i:EventTrigger EventName="ContentRendered">
+      <i:InvokeCommandAction 
+        Command="{Binding LoadedCommand}"
+      />
+    </i:EventTrigger>
+  </i:Interaction.Triggers>
+  <Window.InputBindings>
+    <KeyBinding Key="F5" Command="{Binding LoadedCommand}" />
+    <KeyBinding Key="Esc" Command="{Binding OnEscKeyPressed}" />
+  </Window.InputBindings>
+  <Window.Resources>
+    <Image x:Key="brand" Source="/EpiPlanTool;component/Resources/siltronic_logo.gif" />
+    <DataTemplate DataType="{x:Type vm:ScheduleViewModel}">
+      <v:ScheduleView />
+    </DataTemplate>
+  </Window.Resources>
+  <DockPanel Name="mainDock" LastChildFill="True" >
+    <ToolBarPanel Height="32" DockPanel.Dock="Top">
+      <ToolBar HorizontalAlignment="Left" >
+        <Button 
+          VerticalAlignment="Top" 
+          Command="{Binding LoginCommand}" 
+          ToolTip="Login" 
+        >
+          <StackPanel Orientation="Horizontal">
+            <Image >
+              <Image.Style>
+                <Style TargetType="{x:Type Image}">
+                  <Style.Triggers>
+                    <DataTrigger Binding="{Binding AuthenticationService.IsLoggedIn, Mode=OneWay}" Value="True" >
+                      <Setter Property="Source" Value="/Resources/connect.png" />
+                    </DataTrigger>
+                    <DataTrigger Binding="{Binding AuthenticationService.IsLoggedIn, Mode=OneWay}" Value="False" >
+                      <Setter Property="Source" Value="/Resources/disconnect.png" />
+                    </DataTrigger>
+                  </Style.Triggers>
+                </Style>
+              </Image.Style>
+            </Image>
+            <StackPanel Orientation="Horizontal" >
+              <TextBlock Text="Login" Visibility="{c:Binding !AuthenticationService.IsLoggedIn, Mode=OneWay}" />
+              <TextBlock Text="Logoff" Visibility="{c:Binding AuthenticationService.IsLoggedIn, Mode=OneWay}" />
+            </StackPanel>
+          </StackPanel>
+        </Button>
+        <Separator/>
+        <Button 
+          VerticalAlignment="Top" 
+          Command="{Binding PublishCommand}" 
+          ToolTip="Publish" 
+          IsEnabled="{Binding AuthenticationService.IsPlanner}"
+        >
+          <Image 
+            Source="/EpiPlanTool;component/Resources/database_save.png" 
+           >
+            <Image.Effect>
+              <gs:GrayscaleEffect DesaturationFactor="{c:Binding Path=AuthenticationService.IsPlanner, Mode=OneWay}" />
+            </Image.Effect>
+          </Image>
+        </Button>
+      </ToolBar>
+    </ToolBarPanel>
+
+    <Grid DockPanel.Dock="Top">
+      <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="Auto" />
+        <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Border  
+        Grid.Column="0"
+        Background="#217491" >
+        <Image 
+          Source="/EpiPlanTool;component/Resources/siltronic_logo.gif"  
+          Panel.ZIndex="1"
+          Stretch="None"
+        />
+      </Border>
+      <StackPanel 
+        x:Name="MainHeader"
+        Grid.Column="1"
+        Background="#217491"
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch"
+      >
+        <TextBlock 
+          FontFamily="Arial" 
+          FontSize="22" 
+          Padding="0,5,20,0"
+          TextAlignment="Center"
+          Foreground="White"
+          VerticalAlignment="Stretch"
+          HorizontalAlignment="Stretch"
+          Background="#217491"
+          Text="EPI Planning Tool"
+        />
+        <TextBlock 
+          Foreground="SkyBlue"
+          HorizontalAlignment="Center"
+          TextDecorations="Underline"
+          Margin="-25,0,0,0"
+          Cursor="Hand"
+        >
+          <Hyperlink 
+            NavigateUri="http://zptlip21/SupportTracker/Cell9Summary.aspx" 
+            Foreground="SkyBlue"
+            RequestNavigate="Hyperlink_RequestNavigate"
+          >
+            Support Tracker - Cell 9 Summary            
+          </Hyperlink> 
+        </TextBlock>
+        <TextBlock 
+          Foreground="SkyBlue"
+          HorizontalAlignment="Center"
+          TextDecorations="Underline"
+          Margin="-25,0,0,0"
+          Cursor="Hand"
+        >
+          <Hyperlink 
+            NavigateUri="N:\Operations-L\Team3\Cell 9 Tools\Epi Dashboard\Epi Dashboard.xls" 
+            Foreground="SkyBlue"
+            RequestNavigate="File_RequestNavigate"
+          >
+            EPI Dashboard.xls
+          </Hyperlink>
+        </TextBlock>
+      </StackPanel>
+    </Grid>
+    
+    <StatusBar 
+      Name="statusBar" 
+      DockPanel.Dock="Bottom" 
+      VerticalAlignment="Bottom" 
+      BorderThickness="1" 
+      BorderBrush="SlateGray"
+      FontFamily="Arial"
+      FontWeight="Bold"
+      FontSize="11"
+      Height="26"
+      Background="White"
+    >
+       <StatusBarItem 
+        BorderBrush="Black" 
+        BorderThickness="1,1,1,1" 
+        Width="Auto"
+        FontWeight="Bold" 
+        FontSize="12" 
+        FontFamily="Arial">
+          <TextBlock Text="{Binding AppBuildNumber}" />
+       </StatusBarItem>
+       <StatusBarItem 
+        BorderBrush="Black" 
+        BorderThickness="1,1,1,1" 
+        Width="Auto"
+        FontWeight="Bold" 
+        FontSize="12" 
+        FontFamily="Arial"
+      >
+        <i:Interaction.Triggers>
+          <i:EventTrigger EventName="PreviewMouseUp" >
+            <i:InvokeCommandAction 
+              Command="{Binding LoginCommand}" />
+          </i:EventTrigger>
+        </i:Interaction.Triggers>
+        <StackPanel 
+          Orientation="Horizontal"
+        >
+          <Image x:Name="connectIcon">
+            <Image.Style>
+              <Style TargetType="{x:Type Image}">
+                <Style.Triggers>
+                  <DataTrigger Binding="{Binding AuthenticationService.IsLoggedIn, Mode=OneWay}" Value="True" >
+                    <Setter Property="Source" Value="/Resources/connect.png" />
+                  </DataTrigger>
+                  <DataTrigger Binding="{Binding AuthenticationService.IsLoggedIn, Mode=OneWay}" Value="False" >
+                    <Setter Property="Source" Value="/Resources/disconnect.png" />
+                  </DataTrigger>
+                </Style.Triggers>
+              </Style>
+            </Image.Style>
+          </Image>
+          <TextBlock Text="{Binding AuthenticationService.UserID}" />
+        </StackPanel>
+      </StatusBarItem>
+
+      <StatusBarItem 
+        x:Name="editMode" 
+        BorderBrush="Black" 
+        BorderThickness="0,1,1,1" 
+        Width="70"
+        HorizontalContentAlignment="Center"
+        HorizontalAlignment="Stretch"
+        VerticalAlignment="Stretch"
+      >
+        <StatusBarItem.Style>
+          <Style>
+            <Style.Triggers>
+              <DataTrigger Binding="{Binding AuthenticationService.IsPlanner}" Value="True">
+                <Setter Property="StatusBarItem.Background" Value="Lime" />
+                <Setter Property="StatusBarItem.FontWeight" Value="Bold" />
+              </DataTrigger>
+              <DataTrigger Binding="{Binding AuthenticationService.IsPlanner}" Value="False" >
+                <Setter Property="StatusBarItem.Background" Value="LightGray" />
+                <Setter Property="StatusBarItem.FontWeight" Value="Normal" />
+              </DataTrigger>
+            </Style.Triggers>
+          </Style>
+        </StatusBarItem.Style>
+        <TextBlock 
+          HorizontalAlignment="Stretch"
+          VerticalAlignment="Stretch"
+          TextAlignment="Center" 
+          Text="{c:Binding (AuthenticationService.IsPlanner ? \'EDIT\' : \'VIEW\'), Mode=OneWay}" 
+        />
+      </StatusBarItem>
+      <StatusBarItem 
+        BorderBrush="Black" 
+        BorderThickness="0,1,1,1" 
+        Width="Auto"
+      >
+        <TextBlock 
+          Text="{Binding StatusMessageService.Message, Mode=TwoWay}"
+        />
+      </StatusBarItem>
+    </StatusBar>
+
+    <ContentControl Content="{Binding Schedule}" />
+    
+  </DockPanel>
+
+</Window>

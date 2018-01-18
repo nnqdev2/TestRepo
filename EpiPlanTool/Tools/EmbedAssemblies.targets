@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <PropertyGroup>
+    <ReferencesPath Condition=" '$(ReferencesPath)' == '' ">bin\References\</ReferencesPath>
+  </PropertyGroup>
+
+  <UsingTask AssemblyFile="Analects.Loader.BuildTasks.dll" TaskName="Analects.Loader.BuildTasks.Compress" />
+
+  <UsingTask TaskName="Compress" TaskFactory="CodeTaskFactory" AssemblyFile="$(MSBuildToolsPath)\Microsoft.Build.Tasks.v4.0.dll" >
+    <ParameterGroup>
+      <File Required="true" />
+      <ZipFile Required="true" />
+    </ParameterGroup>
+    <Task>
+      <Using Namespace="System.IO" />
+      <Using Namespace="System.IO.Compression" />
+      <Code Type="Fragment" Language="cs">
+        <![CDATA[
+      bool result;
+
+      try
+      {
+          FileInfo fi = new FileInfo(File);
+          if (!fi.Exists)
+          {
+              base.Log.LogWarning("File Not Found: {0}", new object[]
+              {
+                  fi.FullName
+              });
+          }
+          else
+          {
+              // Get the stream of the source file.
+              using (FileStream inFile = fi.OpenRead())
+              {
+                  // Create the compressed file.
+                  using (FileStream outFile = System.IO.File.Create(ZipFile))
+                  {
+                      using (var Compress = new DeflateStream(outFile, CompressionMode.Compress))
+                      {
+                          // Copy the source file into
+                          // the compression stream.
+                          inFile.CopyTo(Compress);
+                      }
+                  }
+              }
+          }
+          result = true;
+      }
+      catch (Exception exception)
+      {
+          base.Log.LogErrorFromException(exception);
+          result = false;
+      }
+
+      return result;
+]]>
+      </Code>
+    </Task>
+  </UsingTask>
+
+  <Target Name="AfterResolveReferences">
+    <Copy SourceFiles="@(ReferenceCopyLocalPaths)" DestinationFolder="$(IntermediateOutputPath)" Condition="'%(Extension)'=='.dll' or '%(Extension)'=='.pdb' ">
+      <Output TaskParameter="DestinationFiles" ItemName="CompressedReferences" />
+    </Copy>
+
+    <Compress Condition=" '%(CompressedReferences.FullPath)' != '' " File="%(CompressedReferences.FullPath)" ZipFile="%(CompressedReferences.FullPath).cmp" />
+
+    <ItemGroup>
+      <EmbeddedResource Condition=" '%(CompressedReferences.FullPath)' != ''" Include="%(CompressedReferences.FullPath).cmp">
+        <LogicalName>$(RootNamespace).Libs.%(CompressedReferences.DestinationSubDirectory)%(CompressedReferences.Filename)%(CompressedReferences.Extension)</LogicalName>
+      </EmbeddedResource>
+    </ItemGroup>
+  </Target>
+
+  <!-- Copied from Microsoft.Common.Targets -->
+  <Target
+        Name="_CopyFilesMarkedCopyLocal"
+        Condition="'@(ReferenceCopyLocalPaths)' != ''"
+        >
+    <PropertyGroup>
+      <!-- By default we're not using Hard Links to copy to the output directory, and never when building in VS -->
+      <CreateHardLinksForCopyLocalIfPossible Condition="'$(BuildingInsideVisualStudio)' == 'true' or '$(CreateHardLinksForCopyLocalIfPossible)' == ''">false</CreateHardLinksForCopyLocalIfPossible>
+    </PropertyGroup>
+
+    <Copy
+        SourceFiles="@(ReferenceCopyLocalPaths)"
+        DestinationFiles="@(ReferenceCopyLocalPaths->'$(MSBuildProjectDirectory)\$(ReferencesPath)%(DestinationSubDirectory)%(Filename)%(Extension)')"
+        SkipUnchangedFiles="$(SkipCopyUnchangedFiles)"
+        OverwriteReadOnlyFiles="$(OverwriteReadOnlyFiles)"
+        Retries="$(CopyRetryCount)"
+        RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)"
+        UseHardlinksIfPossible="$(CreateHardLinksForCopyLocalIfPossible)"
+        Condition="'$(UseCommonOutputDirectory)' != 'true'"
+    >
+
+      <Output TaskParameter="DestinationFiles" ItemName="FileWritesShareable" />
+
+    </Copy>
+
+  </Target>
+
+</Project>

@@ -1,0 +1,11 @@
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\bin\Debug\SiltronicWPF.dll
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\bin\Debug\SiltronicWPF.pdb
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\SiltronicWPF_MarkupCompile.cache
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\SiltronicWPF_MarkupCompile.lref
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\Themes\Generic.baml
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\SiltronicWPF.g.resources
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\Siltronic.Wpf.Properties.Resources.resources
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\Siltronic.Wpf.csproj.GenerateResource.Cache
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\SiltronicWPF.dll
+C:\Bhanu_Projects\EpiPlanTool\SiltronicWPF\SiltronicWPF\obj\Debug\SiltronicWPF.pdb

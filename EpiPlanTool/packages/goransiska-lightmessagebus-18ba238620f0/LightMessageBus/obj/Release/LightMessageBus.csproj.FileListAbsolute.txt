@@ -1,0 +1,5 @@
+C:\projects\VS\EpiPlanTool\packages\goransiska-lightmessagebus-18ba238620f0\LightMessageBus\bin\Release\LightMessageBus.XML
+C:\projects\VS\EpiPlanTool\packages\goransiska-lightmessagebus-18ba238620f0\LightMessageBus\bin\Release\LightMessageBus.dll
+C:\projects\VS\EpiPlanTool\packages\goransiska-lightmessagebus-18ba238620f0\LightMessageBus\bin\Release\LightMessageBus.pdb
+C:\projects\VS\EpiPlanTool\packages\goransiska-lightmessagebus-18ba238620f0\LightMessageBus\obj\Release\LightMessageBus.dll
+C:\projects\VS\EpiPlanTool\packages\goransiska-lightmessagebus-18ba238620f0\LightMessageBus\obj\Release\LightMessageBus.pdb

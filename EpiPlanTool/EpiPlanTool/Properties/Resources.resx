@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="GET_REACTOR_STATUSES" xml:space="preserve">
+    <value>WITH 
+RCTR_STATUS AS (
+  SELECT 
+    REACTOR_ID,
+    REACT_TYPE,
+    MAX(CASE WHEN CHAMBER='A' THEN STATUS ELSE NULL END) A,
+    MAX(CASE WHEN CHAMBER='B' THEN STATUS ELSE NULL END) B,
+    MAX(CASE WHEN CHAMBER='C' THEN STATUS ELSE NULL END) C
+  FROM (
+    SELECT 
+      TO_NUMBER(REGEXP_REPLACE(ENTITY_DESCRIPTION, '[^0-9]+', '')) REACTOR_ID,
+      NVL(REGEXP_SUBSTR(ENTITY_DESCRIPTION, '(CHAMBER\s)([ABC]{1})', 1,1,'i',2) ,'A') CHAMBER,
+      ENTITY_STATUS_1 STATUS,
+      ENTITY_TYPE REACT_TYPE
+    FROM  
+      NTCENT_V V
+    WHERE 
+      ENTITY_GROUP_4 = 'WC09'
+      AND ENTITY_GROUP_1 = 'EPI REACTORS'
+      AND ENTITY_TYPE IN ('ASM','CENTURA')
+      AND NVL(ENTITY_STATUS_8,'XX') != 'HIDE'
+  )
+  WHERE NOT CHAMBER IS NULL
+  GROUP by
+    REACTOR_ID,
+    REACT_TYPE
+  ORDER BY 
+    REACTOR_ID
+),
+HIST_ALL AS (
+  SELECT
+    HIST.MEAS_START_TIMESTAMP RUN_DATE,
+    HIST.CHAMBER,
+    HIST.RUN_NUM,
+    HIST.PRODUCT,
+    HIST.LOT_NUM,
+    HIST.REACTOR_ID
+  FROM 
+    EPISPC.F2_CEN_HISTORIES HIST
+  WHERE 
+    HIST.MEAS_START_TIMESTAMP &gt; SYSDATE - 3
+  UNION
+  SELECT
+    HIST.MEAS_START_TIMESTAMP RUN_DATE,
+    HIST.CHAMBER,
+    HIST.RUN_NUM,
+    HIST.PRODUCT,
+    HIST.LOT_NUM,
+    HIST.REACTOR_ID
+  FROM 
+    EPISPC.F2_ASM_HISTORIES HIST
+  WHERE 
+    HIST.MEAS_START_TIMESTAMP &gt; SYSDATE - 3
+),
+RCTR_PROD AS (
+  SELECT 
+    REACTOR_ID,
+    RUN_DATE,
+    CHAMBER,
+    PRODUCT,
+    LOT_NUM,
+    RUN_NUM,
+    DOPANT,
+    NP_TYPE,
+    CUST_SHORT_NAME,
+    CUST_SPEC_NICK_NAME
+  FROM (
+    SELECT 
+      HIST.RUN_DATE,
+      TO_NUMBER(RCTR.REACTOR) REACTOR_ID,
+      UPPER(HIST.CHAMBER) CHAMBER,
+      HIST.RUN_NUM,
+      HIST.PRODUCT,
+      HIST.LOT_NUM,
+      GET_MFG_SPEC_VALUE_F(HIST.PRODUCT, 'DOPANT', 'KEY_NAME') DOPANT,
+      GET_MFG_SPEC_VALUE_F(HIST.PRODUCT, 'TYPE', 'KEY_NAME') NP_TYPE,
+      ROW_NUMBER() OVER (PARTITION BY REACTOR ORDER BY RUN_DATE DESC) RN,
+      PS.CUST_SHORT_NAME,
+      PS.CUST_SPEC_NICK_NAME
+    FROM 
+      HIST_ALL HIST
+      JOIN EPISPC.EPI_REACTOR RCTR ON (RCTR.REACTOR_ID=HIST.REACTOR_ID)
+      JOIN MPP_OWNER.PRODUCT_SPECS PS ON (PS.WS_PRODUCT = HIST.PRODUCT)
+    WHERE 
+      --PS.CUST_SHORT_NAME NOT IN ('FAB2', 'WACKER')
+      RCTR.FAB_ID = 2
+    ORDER BY
+      TO_NUMBER(RCTR.REACTOR),
+      RUN_NUM,
+      RUN_DATE
+  )
+  WHERE RN=1
+)
+SELECT 
+  DECODE(RS.REACTOR_ID,14,13,RS.REACTOR_ID) "ReactorID",
+  RS.A, 
+  RS.B, 
+  RS.C,
+  CASE 
+    WHEN A='FAB_CLOSED' THEN NULL 
+    ELSE DECODE(DOPANT,'boron','B','phosphorus', 'p', 'phosphorus red', 'p-red', 'arsenic', 'Ar', 'antimony','Sb')
+  END "Dopant",
+  NP_TYPE "npType",
+  DECODE(NP_TYPE, 'N', 'phosphine', 'P', 'diborane') "DopantType"
+FROM 
+  RCTR_STATUS RS
+  LEFT OUTER JOIN RCTR_PROD RP ON (RP.REACTOR_ID = RS.REACTOR_ID)
+ORDER BY  
+  RS.REACTOR_ID</value>
+  </data>
+</root>

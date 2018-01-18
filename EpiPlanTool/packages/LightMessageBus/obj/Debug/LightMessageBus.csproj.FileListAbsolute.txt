@@ -1,0 +1,4 @@
+C:\projects\VS\EpiPlanTool\packages\LightMessageBus\bin\Debug\LightMessageBus.dll
+C:\projects\VS\EpiPlanTool\packages\LightMessageBus\bin\Debug\LightMessageBus.pdb
+C:\projects\VS\EpiPlanTool\packages\LightMessageBus\obj\Debug\LightMessageBus.dll
+C:\projects\VS\EpiPlanTool\packages\LightMessageBus\obj\Debug\LightMessageBus.pdb
